@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Thérèse Fabrice</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-<h1>mon titre</h1>
-</body>
+
+    <div class="cv-container">
+        <!-- EN-TÊTE -->
+        <header class="cv-header">
+            <div class="header-left">
+                <div class="profile-pic">
+                    <img src="https://placeholder.com" alt="Photo de profil">
+                </div>
+            </div>
+            <div class="header-right">
+                <h1>Thérèse Fabrice</h1>
+                <h2>Développeur Web et Web Mobile</h2>
+                <div class="contact-info">
+                    <div><span>✉</span> <a href="mailto:fabrice.therese@orange.fr">Mail</a></div>
+                    <div><span>🏠</span> <a href="https://www.google.com/maps/place/10+rue+saint+Martin+60310+Roye+sur+Matz" target="_blank">10 rue saint Martin 60310 Roye sur Matz</a></div>
+                    <div><span>📞</span> <a href="tel:07.63.06.66.86"></a>07.63.06.66.86</a></div>
+                    <div><span>🚗</span> Permis B</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CORPS DU CV -->
+        <div class="cv-body">
+            
+            <!-- COLONNE GAUCHE -->
+            <aside class="sidebar">
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="skills-list">
+                        <li>HTML <span class="stars">★★★☆☆</span></li>
+                        <li>CSS <span class="stars">★★★☆☆</span></li>
+                        <li>Javascript <span class="stars">★☆☆☆☆</span></li>
+                        <li>PHP <span class="stars">☆☆☆☆☆</span></li>
+                    </ul>
+                </section>
+
+            <section class="section">
+                <h3>Langues</h3>
+                <ul class="data-list">
+                    
+                    <li><span>Français</span> <span class="lang-level">Langue maternelle</span></li><br>
+                    <li><span>Anglais</span> <span class="lang-level">Professionnel<span class="stars">★★☆☆☆</span></li>
+                    
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3>Qualités</h3>
+                <ul class="bullet-list">
+                    <li>Esprit d'équipe</li>
+                    <li>Autonomie</li>
+                    <li>Organisation</li>
+                    <li>Créativité</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3>Centres d'intérêt</h3>
+                <ul class="bullet-list">
+                    <li>Billard</li>
+                    <li>Informatique</li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- COLONNE DROITE -->
+        <main class="main-content">
+            <section class="section">
+                
+            <h2>Profil</h2>
+            <p>
+                Professionnel du contrôle technique automobile,
+                je souhaite me reconvertir dans l'informatique
+                et développer mes compétences en cybersécurité.
+            </p>
+        </section>
+
+        <section>
+            <h2>Compétences</h2><hr><br>
+            <ul>
+                <li>HTML et CSS</li>
+                <li>Initiation à la cybersécurité</li>
+                <li>Découverte des réseaux informatiques</li>
+                <li>Rigueur et esprit d'analyse</li>
+            </ul>
+        </section><br>
+
+        <section>
+            <h2>Expérience professionnelle</h2>
+            <h3>Contrôleur technique automobile</h3>
+            <p>Entreprise : CTAE 60</p>
+            <p>Dates : 2 Novembre 2014 au 16 Janvier 2026</p>
+            <ul>
+                <li>Contrôle et vérification des véhicules.</li>
+                <li>Application des procédures de sécurité.</li>
+                <li>Identification des anomalies.</li>
+            </ul>
+        </section><br>
+
+        <section>
+            <h2>Formation</h2><hr><br>
+            <p>Formation en informatique : à compléter</p>
+            <p>HTML, CSS et cybersécurité : en apprentissage</p>
+        </section>
+    
+    </div>
+      <footer class="cv-footer">
+            <div class="social-icons">
+                <span><a href="mailto:fabrice.therese@orange.fr">gmail</a></span> 
+                <span><a href="https://github.com/yourusername">GitHub</a></span> 
+                <span><a href="https://facebook.com/fabrice.therese34@gmail.com">Facebook</a></span>
+            </div>
+            <p>Mis à jour le : 14/10/2026</p>
+        </footer>
+    </div>   
 </html>
